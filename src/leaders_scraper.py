@@ -21,14 +21,20 @@ COUNTRY_NAMES = {
     'ru': "Russia"
 }
 
+RENAME_MAP = {
+    "homme_d%27%C3%89tat": "statesman",
+    "Felix_de_M%C3%BBelenaere": "Félix_de_Muelenaere",
+    "Barth%C3%A9lemy_de_Theux_de_Meylandt": "Barthélémy_de_Theux_de_Meylandt"
+}
+
 def replace_eng(url,name):
-   en_url = re.sub(r'https?://[a-z]{2}\.', "https://en.", url)
-   name = re.sub(r"\s", "_", name)
-   name = re.sub('(homme_d%27%C3%89tat)', "(statesman)", name)
-   if re.search(r"https?://ru", url) or re.search(r"https?://ar", url):
-       en_url = "https://en.wikipedia.org/wiki/" + name
-       
-   return en_url
+    en_url = re.sub(r'https?://[a-z]{2}\.', "https://en.", url)
+    name = re.sub(r"\s", "_", name)
+    for old_name, new_name in RENAME_MAP.items():
+        en_url = en_url.replace(old_name, new_name)
+    if re.search(r"https?://ru", url) or re.search(r"https?://ar", url):
+        en_url = "https://en.wikipedia.org/wiki/" + name
+    return en_url
 
 def clean_text(p):
     cleaned = re.sub(r'\[.*?\]', "", p)
@@ -46,6 +52,8 @@ def get_first_paragraph(wikipedia_url):
         p_tags = div_tag.find_all("p")
         for p in p_tags:
             if p.get("class") is None:
+                if p.find_parent(class_="sidebar-list"):
+                    continue
                 text = p.get_text()
                 clean_paragraph = clean_text(text)
                 if clean_paragraph and clean_paragraph.strip().lower() != "defunct":
