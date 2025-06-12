@@ -58,7 +58,7 @@ This program will save data into `leaders.json` inside the `data/` folder
 }
 ```
 
-## ✨ Extra Features (available in the `feature` branch)
+## ✨ Extra Features (available in the `nice-to-have` branch)
 
 - an optional CSV export
 - multiprocessing support to speed things up
