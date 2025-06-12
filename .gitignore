@@ -4,3 +4,5 @@ __pycache__/
 *$py.class
 # Environments
 wikipedia_scraper_env/
+
+__init__.py
