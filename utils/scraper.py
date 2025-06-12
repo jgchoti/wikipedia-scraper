@@ -61,7 +61,7 @@ class WikipediaScraper:
                 self.broken_url.append(wikipedia_eng_url )
             self.leaders_data[country_name].append({
             "name": name,
-            "Wikipedia Url" : wikipedia_eng_url,
+            "Wikipedia URL" : wikipedia_eng_url,
             "description": first_paragraph
         })
     
