@@ -8,7 +8,11 @@ def main() -> None:
     scraper.get_all_leaders()
     filename = "leaders.json"
     scraper.to_json_file(filename)
-    scraper.display_json_file(filename)
+    prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
+    if prompt == "y":
+        scraper.display_json_file(filename)
+    else:
+        print("👋 Skip display. Exiting.")
     time.sleep(1)
     end = time.time()
     scraper.print_broken_urls()
