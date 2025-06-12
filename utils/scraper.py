@@ -138,4 +138,8 @@ class WikipediaScraper:
             for url in self.broken_url:
                 print(url)
                 
-     
+                
+    # an optional CSV export
+    
+    # multiprocessing support to speed things up
+    
