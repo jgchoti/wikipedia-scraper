@@ -13,7 +13,6 @@ def main() -> None:
         scraper.display_json_file(filename)
     else:
         print("👋 Skip display. Exiting.")
-    time.sleep(1)
     end = time.time()
     scraper.print_broken_urls()
     print(f"\n⌛️ Total runtime is {end - start} seconds")
