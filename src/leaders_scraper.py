@@ -107,9 +107,6 @@ def get_leaders():
             wikipedia_url = leader["wikipedia_url"]
             wikipedia_eng_url = replace_eng(wikipedia_url, name)
             first_paragraph = get_first_paragraph(wikipedia_eng_url)
-            if first_paragraph == "Other reasons this message may be displayed:":
-                wikipedia_eng_url = wikipedia_url
-                first_paragraph = get_first_paragraph(wikipedia_url)
             leaders[country_name].append(
                 {
                     "name": name,
