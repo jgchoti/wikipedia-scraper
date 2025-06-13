@@ -7,6 +7,7 @@ import requests
 import re
 import json
 import os
+import csv
 from requests import Session
 from bs4 import BeautifulSoup
 from utils.config import NAME_REPLACE, RENAME_MAP, COUNTRY_NAMES
@@ -20,7 +21,6 @@ class WikipediaScraper:
         country_endpoint: str = "/countries",
         leaders_endpoint: str = "/leaders",
         cookies_endpoint: str = "/cookie",
-        leaders_data: dict = None,
         cookie: object = "",
         countries: list = None,
         broken_url: list = None,
@@ -33,6 +33,7 @@ class WikipediaScraper:
         self.cookie = cookie
         self.countries = []
         self.broken_url = []
+        self.filename = "leaders"
         self.session = requests.Session()
 
     # - `refresh_cookie() -> object` returns a new cookie if the cookie has expired
@@ -88,7 +89,7 @@ class WikipediaScraper:
             self.leaders_data[country_name].append(
                 {
                     "name": name,
-                    "Wikipedia URL": wikipedia_eng_url,
+                    "wikipedia URL": wikipedia_eng_url,
                     "description": first_paragraph,
                 }
             )
@@ -131,33 +132,88 @@ class WikipediaScraper:
                     if clean_paragraph and clean_paragraph.strip().lower() != "defunct":
                         return clean_paragraph
         return "⚠️ no description found"
+    
+    def input_filename(self):
+        user_input = input("💾 Name your data file (default: leaders): ").strip()
+        check_filename = re.search(r'[\\/:*?"<>|]',user_input)
+        if not user_input or check_filename:
+            self.filename = "leaders"
+        else: 
+            self.filename = user_input
+        return self.filename
+
+    def save_file(self):
+        file_extensions = [".json",  ".csv"]
+        prompt = input("💾 Save results in a file? (y to confirm): ").strip().lower()
+        if prompt == "y":
+            file_extension = input("💾  1: .json  2: .csv  or other to cancel: ").strip().lower()
+            self.filename = self.input_filename()
+            if file_extension == "1" or file_extension in ["json", ".json"]:
+                 self.filename += file_extensions[0]
+                 print(f"export in {file_extensions[0]} file")
+                 self.to_json_file()
+                 
+            elif file_extension == "2" or file_extension in ["csv", ".csv"]:
+                self.filename += file_extensions[1]
+                print(f"export in {file_extensions[1]} file")
+                self.to_csv_file()
+        else:
+            print("👋 Skip saving data.")
 
     # - `to_json_file(filepath: str) -> None` stores the data structure into a JSON file
-    def to_json_file(self, filename: str):
+    def to_json_file(self):
         path = os.path.abspath("")
-        access_file = os.path.join(path, "data", filename)
+        access_file = os.path.join(path, "data", self.filename)
         os.makedirs(os.path.dirname(access_file), exist_ok=True)
         with open(access_file, "w") as json_file:
             json.dump(self.leaders_data, json_file, indent=2)
-        print(f"✏️ Created {filename}")
+        print(f"✏️ Created {self.filename}")
 
-    def read_json_file(self, filename):
+    def read_file(self):
         path = os.path.abspath("")
-        access_file = os.path.join(path, "data", filename)
-        with open(access_file, "r") as json_file:
-            data = json.load(json_file)
-
+        data_dir = os.path.join(path, "data")
+        
+        if self.filename.endswith(".json") or self.filename.endswith(".csv"):
+            access_file = os.path.join(data_dir, self.filename)
+        else:
+            for file_name in os.listdir(data_dir):
+                if file_name.endswith(".json") or file_name.endswith(".csv"):
+                    self.filename = file_name  
+                    access_file = os.path.join(data_dir, file_name)
+                else:
+                    print("No .json or .csv file found in 'data/' directory.")
+                    return
+    
+        if self.filename.endswith(".json"):
+            with open(access_file, "r") as access_file:
+                data = json.load(access_file)
+        elif self.filename.endswith(".csv"):
+            with open(access_file, mode="r") as access_file:
+                data = list(csv.DictReader(access_file))
         return data
 
-    def display_json_file(self, filename):
-        print(f"📖 Reading {filename}")
-        data = self.read_json_file(filename)
-        for section_key, entries in data.items():
-            print(f"\n📍 {section_key}")
-            for idx, entry in enumerate(entries, 1):
-                print(f"\n  Entry {idx}")
-                for key, value in entry.items():
-                    print(f"  {key.capitalize():12}: {value}")
+    def display(self):
+        prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
+        if prompt == "y":
+            print(f"📖 Reading {self.filename}")
+            data = self.read_file()
+            if not data:
+                print("🚫 File not found! Skip display. Exiting.")
+                return
+            elif isinstance(data, dict):
+                for section_key, entries in data.items():
+                    for entry in  entries:
+                        print(f"\n  {'Country':12}: {section_key}")
+                        for key, value in entry.items():
+                            print(f"  {key.capitalize():12}: {value}")
+            else:
+                for line in data :
+                    print(f"\n")
+                    for key, value in line.items():
+                        print(f"  {key.capitalize():12}: {value}")
+        else:
+            print("👋 Skip display. Exiting.")
+            
 
     def print_broken_urls(self):
         if len(self.broken_url) > 0:
@@ -167,6 +223,25 @@ class WikipediaScraper:
                 
                 
     # an optional CSV export
+    
+    def to_csv_file(self):
+
+        path = os.path.abspath("")
+        access_file = os.path.join(path, "data", self.filename)
+        os.makedirs(os.path.dirname(access_file), exist_ok=True)
+        
+        first_key = list(self.leaders_data.keys())[0]
+        fieldnames = ['country'] + list(self.leaders_data[first_key][0].keys())
+        
+        with open(access_file, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for country, leaders_list in self.leaders_data.items():
+                for leader in leaders_list:
+                    row = {'country': country}
+                    row.update(leader)
+                    writer.writerow(row)
+           
     
     # multiprocessing support to speed things up
     
