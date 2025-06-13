@@ -1,161 +1,4 @@
 {
-  "France": [
-    {
-      "name": "Fran\u00e7ois Hollande",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande",
-      "description": "Fran\u00e7ois G\u00e9rard Georges Nicolas Hollande is a French politician who served as President of France from 2012 to 2017. Before his presidency, he was First Secretary of the Socialist Party from 1997 to 2008, Mayor of Tulle from 2001 to 2008, as well as President of the General Council of Corr\u00e8ze from 2008 to 2012. He has also held the 1st constituency of Corr\u00e8ze seat in the National Assembly three times, first from 1988 to 1993, then from 1997 to 2012, and from 2024 onwards."
-    },
-    {
-      "name": "Nicolas Sarkozy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
-      "description": "Nicolas Paul St\u00e9phane Sark\u00f6zy de Nagy-Bocsa is a French politician who served as President of France from 2007 to 2012. In 2021, he was found guilty of having tried to bribe a judge in 2014 to obtain information and spending beyond legal campaign funding limits during his 2012 re-election campaign."
-    },
-    {
-      "name": "Fran\u00e7ois Mitterrand",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand",
-      "description": "Fran\u00e7ois Maurice Adrien Marie Mitterrand was a French politician and statesman who served as President of France from 1981 to 1995, the longest holder of that position in the history of France. As a former Socialist Party First Secretary, he was the first left-wing politician to assume the presidency under the Fifth Republic."
-    },
-    {
-      "name": "Charles de Gaulle",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
-      "description": "Charles Andr\u00e9 Joseph Marie de Gaulle was a French general and statesman who led the Free French Forces against Nazi Germany in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. In 1958, amid the Algiers putsch, he came out of retirement when appointed Prime Minister by President Ren\u00e9 Coty. He rewrote the Constitution of France and founded the Fifth Republic after approval by referendum. He was elected President of France later that year, a position he held until his resignation in 1969."
-    },
-    {
-      "name": "Jacques Chirac",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jacques_Chirac",
-      "description": "Jacques Ren\u00e9 Chirac was a French politician who served as President of France from 1995 to 2007. He was previously Prime Minister of France from 1974 to 1976 and 1986 to 1988, as well as Mayor of Paris from 1977 to 1995."
-    },
-    {
-      "name": "Val\u00e9ry Giscard d'Estaing",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%27Estaing",
-      "description": "Val\u00e9ry Ren\u00e9 Marie Georges Giscard d'Estaing , also known as simply Giscard or VGE, was a French politician who served as President of France from 1974 to 1981."
-    },
-    {
-      "name": "Georges Pompidou",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Pompidou",
-      "description": "Georges Jean Raymond Pompidou was a French politician who served as President of France from 1969 until his death in 1974. He previously served as Prime Minister of France under President Charles de Gaulle from 1962 to 1968, a longevity record under the Fifth Republic."
-    },
-    {
-      "name": "Adolphe Thiers",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Adolphe_Thiers",
-      "description": "Marie Joseph Louis Adolphe Thiers was a French statesman and historian who served as President of France from 1871 to 1873. He was the second elected president and the first of the Third French Republic."
-    },
-    {
-      "name": "Napol\u00e9on Bonaparte",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Napol%C3%A9on_III",
-      "description": "Napoleon III was President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first president, second emperor, and last monarch of France."
-    },
-    {
-      "name": "Paul Doumer",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Doumer",
-      "description": "Joseph Athanase Doumer, commonly known as Paul Doumer , was a French politician who served as the President of France from June 1931 until his assassination in May 1932. He is described as \"the Father of French Indochina,\" and was seen as one of the most active and effective governors general of Indochina."
-    },
-    {
-      "name": "Alain Poher",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alain_Poher",
-      "description": "Alain \u00c9mile Louis Marie Poher was a French politician who served as President of the Senate from 1968 to 1992. In this capacity, he was twice briefly acting President of France, in 1969 and 1974 following the resignation of Charles de Gaulle and the death of Georges Pompidou respectively. Poher was affiliated with the Popular Republican Movement until 1966 and later with the Democratic Centre and Centre of Social Democrats , which he joined in 1976."
-    },
-    {
-      "name": "Albert Lebrun",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Albert_Lebrun",
-      "description": "Albert Fran\u00e7ois Lebrun was a French politician who served as President of France from 1932 to 1940. He was the last president of the Third Republic. He was a member of the centre-right Democratic Republican Alliance ."
-    },
-    {
-      "name": "Ren\u00e9 Coty",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Ren%C3%A9_Coty",
-      "description": "Gustave Jules Ren\u00e9 Coty was President of France from 1954 to 1959. He was the second and last president of the Fourth French Republic."
-    },
-    {
-      "name": "Vincent Auriol",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Vincent_Auriol",
-      "description": "Vincent Jules Auriol was a French politician who served as President of France from 1947 to 1954."
-    },
-    {
-      "name": "Patrice de Mac Mahon",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Patrice_de_Mac_Mahon",
-      "description": "Marie Edme Patrice Maurice de MacMahon, marquis de MacMahon, duc de Magenta , was a French general and politician who served as President of France from 1873 to 1879. He was elevated to the dignity of Marshal of France by Napoleon III."
-    },
-    {
-      "name": "\u00c9mile Loubet",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/%C3%89mile_Loubet",
-      "description": "\u00c9mile Fran\u00e7ois Loubet was the 45th Prime Minister of France from February to December 1892 and later President of France from 1899 to 1906."
-    },
-    {
-      "name": "Raymond Poincar\u00e9",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
-      "description": "Raymond Nicolas Landry Poincar\u00e9 was a French statesman who served as President of France from 1913 to 1920, and three times as Prime Minister of France. He was a conservative leader, primarily committed to political and social stability."
-    },
-    {
-      "name": "Marie Carnot",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)",
-      "description": "Marie Fran\u00e7ois Sadi Carnot was a French statesman who served as President of France from 1887 until his assassination in 1894."
-    },
-    {
-      "name": "Alexandre Millerand",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alexandre_Millerand",
-      "description": "Alexandre Millerand 10 February 1859 \u2013 6 April 1943  was a French politician who served as President of France from 1920 to 1924, having previously served as Prime Minister of France earlier in 1920. His participation in Waldeck-Rousseau's cabinet at the start of the 20th century, alongside the Marquis de Galliffet, who had directed the repression of the 1871 Paris Commune, sparked a debate in the French Section of the Workers' International and in the Second International about the participation of socialists in bourgeois governments."
-    },
-    {
-      "name": "Gaston Doumergue",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Gaston_Doumergue",
-      "description": "Pierre Paul Henri Gaston Doumergue was a French politician who served as President of France from 1924 to 1931."
-    },
-    {
-      "name": "F\u00e9lix Faure",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/F%C3%A9lix_Faure",
-      "description": "F\u00e9lix Fran\u00e7ois Faure was President of France from 1895 until his death in 1899. A native of Paris, he worked as a tanner in his younger years. Faure became a member of the Chamber of Deputies for Seine-Inf\u00e9rieure in 1881. He rose to prominence in national politics up until unexpectedly assuming the presidency, during which time France's relations with Russia improved."
-    },
-    {
-      "name": "Jules Gr\u00e9vy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jules_Gr%C3%A9vy",
-      "description": "Fran\u00e7ois Judith Paul Gr\u00e9vy , known as Jules Gr\u00e9vy , was a French lawyer and politician who served as President of France from 1879 to 1887. He was a leader of the Moderate Republicans, and given that his predecessors were monarchists who tried without success to restore the French monarchy, Gr\u00e9vy is considered the first real republican president of France. During Gr\u00e9vy's presidency from 1879 to 1887, according to David Bell, there was a disunity among his cabinets. Only one survived more than a year. Gr\u00e9vy paid attention chiefly to defense, internal order, and foreign relations. Critics argue that Gr\u00e9vy's confusing approach to appointments set a bad precedent for handling crises. Gr\u00e9vy's son-in-law was implicated in a corruption scandal in 1887, and Gr\u00e9vy had to resign after exhausting the pool of willing politicians to form a fresh government."
-    },
-    {
-      "name": "Cl\u00e9ment Falli\u00e8res",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Armand_Falli%C3%A8res",
-      "description": "Cl\u00e9ment Armand Falli\u00e8res was a French statesman who was President of France from 1906 to 1913."
-    },
-    {
-      "name": "Paul Deschanel",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Deschanel",
-      "description": "Paul Eug\u00e8ne Louis Deschanel was a French politician who served as President of France from 18 February to 21 September 1920."
-    },
-    {
-      "name": "Georges Bidault",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Bidault",
-      "description": "Georges-Augustin Bidault was a French politician. During World War II, he was active in the French Resistance. After the war, he served as foreign minister and premier on several occasions. He apparently joined the Organisation arm\u00e9e secr\u00e8te  however he always denied his involvement."
-    },
-    {
-      "name": "Jean Casimir-Perier",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier",
-      "description": "Jean Paul Pierre Casimir-Perier was a French politician who served as President of France from June 1894 to January 1895."
-    },
-    {
-      "name": "Charles Dupuy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_Dupuy",
-      "description": "Charles Alexandre Dupuy was a French statesman, three times prime minister."
-    },
-    {
-      "name": "Louis Cavaignac",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Cavaignac",
-      "description": "Louis-Eug\u00e8ne Cavaignac was a French general and politician who served as head of the executive power of France between June and December 1848, during the French Second Republic."
-    },
-    {
-      "name": "Louis None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Louis_Jules_Trochu",
-      "description": "Louis-Jules Trochu was a French military leader and politician. He served as President of the Government of National Defense\u2014France's de facto head of state\u2014from 4 September 1870 until his resignation on 22 January 1871 ."
-    },
-    {
-      "name": "Fr\u00e9d\u00e9ric None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Fran%C3%A7ois-Marsal",
-      "description": "Fr\u00e9d\u00e9ric Fran\u00e7ois-Marsal was a French politician of the Third Republic, who served briefly as Prime Minister in 1924. Due to his premiership he also served for two days as the Acting President of the French Republic between the resignation of Alexandre Millerand and the election of Gaston Doumergue."
-    },
-    {
-      "name": "Emmanuel Macron",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
-      "description": "Emmanuel Jean-Michel Fr\u00e9d\u00e9ric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He was Minister of Economics, Industry and Digital Affairs under President Fran\u00e7ois Hollande between 2014 and 2016. He has been a member of Renaissance since he founded it in 2016."
-    }
-  ],
   "Belgium": [
     {
       "name": "Guy Verhofstadt",
@@ -165,7 +8,7 @@
     {
       "name": "Yves Leterme",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Yves_Leterme",
-      "description": "Yves Camille D\u00e9sir\u00e9 Leterme is a Belgian politician, a leader of the Christian Democratic and Flemish party . He was the prime minister of Belgium from March 2008 to December 2008, and later from November 2009 to December 2011."
+      "description": "Yves Camille Désiré Leterme is a Belgian politician, a leader of the Christian Democratic and Flemish party . He was the prime minister of Belgium from March 2008 to December 2008, and later from November 2009 to December 2011."
     },
     {
       "name": "Herman None",
@@ -173,9 +16,9 @@
       "description": "Herman Achille, Count Van Rompuy is a Belgian politician who served as Prime Minister of Belgium from 2008 to 2009, and later as the first permanent President of the European Council from 2009 to 2014."
     },
     {
-      "name": "L\u00e9on Delacroix",
+      "name": "Léon Delacroix",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/L%C3%A9on_Delacroix",
-      "description": "L\u00e9on Fr\u00e9d\u00e9ric Gustave Delacroix was a Belgian statesman. Before entering politics, he was a renowned lawyer, and served as president of the Belgian Court of Cassation from 1917 to 1918. In the context of reconstruction after World War I, he was appointed the prime minister and served from 1918 to 1920. During his term, universal suffrage for men was enacted. He was also the minister of Finance from 1918 to 1920."
+      "description": "Léon Frédéric Gustave Delacroix was a Belgian statesman. Before entering politics, he was a renowned lawyer, and served as president of the Belgian Court of Cassation from 1917 to 1918. In the context of reconstruction after World War I, he was appointed the prime minister and served from 1918 to 1920. During his term, universal suffrage for men was enacted. He was also the minister of Finance from 1918 to 1920."
     },
     {
       "name": "Henry Carton",
@@ -185,10 +28,10 @@
     {
       "name": "Georges Theunis",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Theunis",
-      "description": "Georges Emile L\u00e9onard Theunis was the prime minister of Belgium from 1921 to 1925 and again from 1934 to 1935. He was governor of the National Bank of Belgium in exile in London, from 1941 until 1944. He was also the minister of Finance from 1920 to 1925."
+      "description": "Georges Emile Léonard Theunis was the prime minister of Belgium from 1921 to 1925 and again from 1934 to 1935. He was governor of the National Bank of Belgium in exile in London, from 1941 until 1944. He was also the minister of Finance from 1920 to 1925."
     },
     {
-      "name": "Alo\u00efs Van de Vyvere",
+      "name": "Aloïs Van de Vyvere",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Aloys_Van_de_Vyvere",
       "description": "Aloys Jean Maria Joseph, Viscount Van de Vyvere was a Belgian Catholic Party politician."
     },
@@ -225,7 +68,7 @@
     {
       "name": "Gaston Eyskens",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Gaston_Eyskens",
-      "description": "Gaston Fran\u00e7ois Marie, Viscount Eyskens was a Christian democratic politician and prime minister of Belgium. He was also an economist and member of the Belgian Christian Social Party ."
+      "description": "Gaston François Marie, Viscount Eyskens was a Christian democratic politician and prime minister of Belgium. He was also an economist and member of the Belgian Christian Social Party ."
     },
     {
       "name": "Leo Tindemans",
@@ -245,12 +88,12 @@
     {
       "name": "Frans Schollaert",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Frans_Schollaert",
-      "description": "Fran\u00e7ois Victor Marie Ghislain Schollaert was a Belgian Catholic Party politician who served as Prime Minister of Belgium from 1907 to 1911."
+      "description": "François Victor Marie Ghislain Schollaert was a Belgian Catholic Party politician who served as Prime Minister of Belgium from 1907 to 1911."
     },
     {
       "name": "Pieter Decker",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Pieter_de_Decker",
-      "description": "Pierre Jacques Fran\u00e7ois de Decker was a Belgian Roman Catholic politician, statesman and author who served as the Prime Minister of Belgium from 1855 to 1857."
+      "description": "Pierre Jacques François de Decker was a Belgian Roman Catholic politician, statesman and author who served as the Prime Minister of Belgium from 1855 to 1857."
     },
     {
       "name": "Paul-Henri Spaak",
@@ -260,22 +103,22 @@
     {
       "name": "Auguste Beernaert",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Auguste_Beernaert",
-      "description": "Auguste Marie Fran\u00e7ois Beernaert was the prime minister of Belgium from October 1884 to March 1894, and the 1909 Nobel Peace Prize laureate."
+      "description": "Auguste Marie François Beernaert was the prime minister of Belgium from October 1884 to March 1894, and the 1909 Nobel Peace Prize laureate."
     },
     {
-      "name": "Th\u00e9odore Lef\u00e8vre",
+      "name": "Théodore Lefèvre",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Th%C3%A9o_Lef%C3%A8vre",
-      "description": "Th\u00e9odore Joseph Alb\u00e9ric Marie Lef\u00e8vre , better known as Th\u00e9o Lef\u00e8vre, was a Belgian politician and lawyer who served as the prime minister of Belgium from 1961 to 1965. He was a lawyer at the Ghent court of justice, and became deputy of the Belgian parliament for the PSC-CVP in 1946."
+      "description": "Théodore Joseph Albéric Marie Lefèvre , better known as Théo Lefèvre, was a Belgian politician and lawyer who served as the prime minister of Belgium from 1961 to 1965. He was a lawyer at the Ghent court of justice, and became deputy of the Belgian parliament for the PSC-CVP in 1946."
     },
     {
       "name": "Paul None",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Vanden_Boeynants",
-      "description": "Paul Emile Fran\u00e7ois Henri Vanden Boeynants was a Belgian politician. He served as the prime minister of Belgium for two brief periods ."
+      "description": "Paul Emile François Henri Vanden Boeynants was a Belgian politician. He served as the prime minister of Belgium for two brief periods ."
     },
     {
-      "name": "\u00c9tienne Gerlache",
+      "name": "Étienne Gerlache",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Etienne_de_Gerlache",
-      "description": "\u00c9tienne Constantin, Baron de Gerlache was a lawyer and politician in the United Kingdom of the Netherlands, and later became in 1831 the first prime minister of the newly founded Belgian state."
+      "description": "Étienne Constantin, Baron de Gerlache was a lawyer and politician in the United Kingdom of the Netherlands, and later became in 1831 the first prime minister of the newly founded Belgian state."
     },
     {
       "name": "Wilfried Martens",
@@ -290,12 +133,12 @@
     {
       "name": "Pierre Harmel",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Pierre_Harmel",
-      "description": "Pierre Charles Jos\u00e9 Marie, Count Harmel was a Belgian lawyer, Christian Democratic politician and diplomat. Harmel served as the prime minister of Belgium from 1965 to 1966, leading a centre-left cabinet."
+      "description": "Pierre Charles José Marie, Count Harmel was a Belgian lawyer, Christian Democratic politician and diplomat. Harmel served as the prime minister of Belgium from 1965 to 1966, leading a centre-left cabinet."
     },
     {
       "name": "Hubert Pierlot",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Hubert_Pierlot",
-      "description": "Hubert Marie Eug\u00e8ne Pierlot was a Belgian politician and Prime Minister of Belgium, serving between 1939 and 1945. Pierlot, a lawyer and jurist, served in World War I before entering politics in the 1920s. A member of the Catholic Party, Pierlot became Prime Minister in 1939, shortly before Belgium entered World War II. In this capacity, he headed the Belgian government in exile, first from France and later Britain, while Belgium was under German occupation. During the German invasion of Belgium in May 1940, a violent disagreement broke out between Pierlot and King Leopold III over whether the King should follow the orders of his ministers and go into exile or surrender to the German Army. Pierlot considered Leopold's subsequent surrender a breach of the Constitution and encouraged the parliament to declare Leopold unfit to reign. The confrontation provoked a lasting animosity between Pierlot and other conservatives, who supported the King's position and considered the government's exile to be cowardly."
+      "description": "Hubert Marie Eugène Pierlot was a Belgian politician and Prime Minister of Belgium, serving between 1939 and 1945. Pierlot, a lawyer and jurist, served in World War I before entering politics in the 1920s. A member of the Catholic Party, Pierlot became Prime Minister in 1939, shortly before Belgium entered World War II. In this capacity, he headed the Belgian government in exile, first from France and later Britain, while Belgium was under German occupation. During the German invasion of Belgium in May 1940, a violent disagreement broke out between Pierlot and King Leopold III over whether the King should follow the orders of his ministers and go into exile or surrender to the German Army. Pierlot considered Leopold's subsequent surrender a breach of the Constitution and encouraged the parliament to declare Leopold unfit to reign. The confrontation provoked a lasting animosity between Pierlot and other conservatives, who supported the King's position and considered the government's exile to be cowardly."
     },
     {
       "name": "Jean-Baptiste Nothomb",
@@ -323,24 +166,24 @@
       "description": "Charles Latour Rogier was a Belgian liberal statesman and a leader in the Belgian Revolution of 1830. He served as the prime minister of Belgium on two occasions: from 1847 to 1852, and again from 1857 to 1868."
     },
     {
-      "name": "Barth\u00e9lemy None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Barth\u00e9l\u00e9my_de_Theux_de_Meylandt",
-      "description": "Barth\u00e9lemy Th\u00e9odore, Count de Theux de Meylandt was a Belgian Roman Catholic politician who served as the prime minister of Belgium three times. His family de Theux de Meylandt et Montjardin originated in Theux in 1341."
+      "name": "Barthélemy None",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Barthélémy_de_Theux_de_Meylandt",
+      "description": "Barthélemy Théodore, Count de Theux de Meylandt was a Belgian Roman Catholic politician who served as the prime minister of Belgium three times. His family de Theux de Meylandt et Montjardin originated in Theux in 1341."
     },
     {
       "name": "Felix None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/F\u00e9lix_de_Muelenaere",
-      "description": "F\u00e9lix Amandus, Count de Muelenaere was a Belgian Roman Catholic politician who served as the prime minister of Belgium from 1831 to 1832"
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Félix_de_Muelenaere",
+      "description": "Félix Amandus, Count de Muelenaere was a Belgian Roman Catholic politician who served as the prime minister of Belgium from 1831 to 1832"
     },
     {
       "name": "Alexander De Croo",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Alexander_De_Croo",
-      "description": "Alexander De Croo is a Belgian politician and businessman who served as Prime Minister of Belgium from 2020 to 2025. Previously from 2012 to 2020, De Croo served as deputy prime minister in the governments of Elio Di Rupo, Charles Michel, and Sophie Wilm\u00e8s. During his tenure as deputy prime minister he served as the Minister of Pensions from 2012 to 2014, as Minister of Development Cooperation from 2014 to 2020, and as Minister of Finance from 2018 to 2020. On 1 October 2020, over a year after the 2019 federal elections, the De Croo Government was formed to replace Wilm\u00e8s' minority government, with De Croo as prime minister."
+      "description": "Alexander De Croo is a Belgian politician and businessman who served as Prime Minister of Belgium from 2020 to 2025. Previously from 2012 to 2020, De Croo served as deputy prime minister in the governments of Elio Di Rupo, Charles Michel, and Sophie Wilmès. During his tenure as deputy prime minister he served as the Minister of Pensions from 2012 to 2014, as Minister of Development Cooperation from 2014 to 2020, and as Minister of Finance from 2018 to 2020. On 1 October 2020, over a year after the 2019 federal elections, the De Croo Government was formed to replace Wilmès' minority government, with De Croo as prime minister."
     },
     {
-      "name": "Henri de Brouck\u00e8re",
+      "name": "Henri de Brouckère",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Henri_de_Brouck%C3%A8re",
-      "description": "Jonkheer Henri Ghislain Joseph Marie Hyacinthe de Brouck\u00e8re was a Belgian nobleman and liberal politician. Born in Bruges, he was a magistrate and a professor at the Universit\u00e9 libre de Bruxelles. His brother Charles was mayor of the City of Brussels."
+      "description": "Jonkheer Henri Ghislain Joseph Marie Hyacinthe de Brouckère was a Belgian nobleman and liberal politician. Born in Bruges, he was a magistrate and a professor at the Université libre de Bruxelles. His brother Charles was mayor of the City of Brussels."
     },
     {
       "name": "Albert None",
@@ -358,9 +201,9 @@
       "description": "Jules Philippe Marie de Burlet was a Belgian Catholic Party politician who served as the Prime Minister of Belgium from 1894 to 1896."
     },
     {
-      "name": "Paul-\u00c9mile None",
+      "name": "Paul-Émile None",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul-Emile_Janson",
-      "description": "Paul-\u00c9mile Janson was a francophone Belgian liberal politician who served as the Prime Minister of Belgium from 1937 to 1938. During the German occupation, he was arrested as a political prisoner and died in a German concentration camp in 1944."
+      "description": "Paul-Émile Janson was a francophone Belgian liberal politician who served as the Prime Minister of Belgium from 1937 to 1938. During the German occupation, he was arrested as a political prisoner and died in a German concentration camp in 1944."
     },
     {
       "name": "Jules Malou",
@@ -375,7 +218,7 @@
     {
       "name": "Joseph Pholien",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Joseph_Pholien",
-      "description": "Joseph Clovis Louis Marie Emmanuel Pholien was a Belgian Catholic politician and member of the PSC-CVP. He was born in Li\u00e8ge, and volunteered to serve with the Belgian army during World War I, being commissioned as a first lieutenant. He was the minister of Justice under Paul-Henri Spaak from May 1938 to February 1939 and was the prime minister of Belgium from 16 August 1950 to 15 January 1952. In 1966, he became a minister of State."
+      "description": "Joseph Clovis Louis Marie Emmanuel Pholien was a Belgian Catholic politician and member of the PSC-CVP. He was born in Liège, and volunteered to serve with the Belgian army during World War I, being commissioned as a first lieutenant. He was the minister of Justice under Paul-Henri Spaak from May 1938 to February 1939 and was the prime minister of Belgium from 16 August 1950 to 15 January 1952. In 1966, he became a minister of State."
     },
     {
       "name": "Jean Van Houtte",
@@ -383,19 +226,19 @@
       "description": "Jean Marie Joseph, Baron Van Houtte was a Belgian politician who served as the Prime Minister of Belgium from 1952 to 1954."
     },
     {
-      "name": "Walth\u00e8re Fr\u00e8re",
+      "name": "Walthère Frère",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Walth%C3%A8re_Fr%C3%A8re-Orban",
-      "description": "Hubert Joseph Walth\u00e8re Fr\u00e8re-Orban was a Belgian liberal statesman who served as the Prime Minister of Belgium from 1868 to 1870 and again from 1878 to 1884."
+      "description": "Hubert Joseph Walthère Frère-Orban was a Belgian liberal statesman who served as the Prime Minister of Belgium from 1868 to 1870 and again from 1878 to 1884."
     },
     {
-      "name": "G\u00e9rard Cooreman",
+      "name": "Gérard Cooreman",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Gerard_Cooreman",
-      "description": "G\u00e9rard Fran\u00e7ois Marie Cooreman was a Belgian Catholic Party politician who served as Prime Minister of Belgium from June to November 1918."
+      "description": "Gérard François Marie Cooreman was a Belgian Catholic Party politician who served as Prime Minister of Belgium from June to November 1918."
     },
     {
       "name": "Jules Vandenpeereboom",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Jules_Vandenpeereboom",
-      "description": "Jules Henri Pierre Fran\u00e7ois Vandenpeereboom was a Belgian Catholic Party politician."
+      "description": "Jules Henri Pierre François Vandenpeereboom was a Belgian Catholic Party politician."
     },
     {
       "name": "Paul None",
@@ -418,31 +261,9 @@
       "description": "Charles Michel is a Belgian politician who served as the president of the European Council from 2019 to 2024. He previously served as the prime minister of Belgium between 2014 and 2019. Michel became the minister of development cooperation in 2007 at age thirty-one, and remained in this position until elected the leader of the Francophone liberal Reformist Movement in February 2011. He led MR to the 2014 federal election, where they emerged as the third-largest party in the Chamber of Representatives. After coalition negotiations, Michel was confirmed as Prime Minister of a MR-N-VA-OVLD-CD&V government. He was sworn in on 11 October 2014, becoming the youngest Belgian prime minister since Jean-Baptiste Nothomb in 1841."
     },
     {
-      "name": "Sophie Wilm\u00e8s",
+      "name": "Sophie Wilmès",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Sophie_Wilm%C3%A8s",
-      "description": "Sophie Wilm\u00e8s is a Belgian politician who served as the prime minister of Belgium from 2019 to 2020. She later served as minister of foreign affairs from 2020 to 2022. A member of the Reformist Movement, she is the first woman to hold either position."
-    }
-  ],
-  "Morocco": [
-    {
-      "name": "Mohammed VI of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco",
-      "description": "Mohammed VI is King of Morocco. A member of the Alawi dynasty, he acceded to the throne on 23 July 1999, upon the death of his father, King Hassan II."
-    },
-    {
-      "name": "Hassan II of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Hassan_II_of_Morocco",
-      "description": "Hassan II was King of Morocco from 1961 until his death in 1999. A member of the Alawi dynasty, he was the eldest son of King Mohammed V, and his second wife Princess Abla bint Tahar."
-    },
-    {
-      "name": "Mohammed V of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_V_of_Morocco",
-      "description": "Mohammed al-Khamis bin Yusef bin Hassan al-Alawi, better known simply as Mohammed V , was the last Sultan of Morocco from 1927 to 1953 and from 1955 to 1957, and first King of Morocco from 1957 to 1961. A member of the 'Alawi dynasty, he played an instrumental role in securing the independence of Morocco from the French and Spanish Protectorates."
-    },
-    {
-      "name": "Abu Abdallah al-Qaim",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Abu_Abdallah_al-Qaim",
-      "description": "Abu Abdallah Muhammad ibn Abd al-Rahman al-Qaim bi-Amr Allah, often shortened to Abu Abdallah al-Qa'im or Muhammad al-Qa'im, was the first political leader of the Saadi Dynasty of Morocco. He ruled the Sous and other parts of southern Morocco from 1510 to 1517, setting the stage for his sons to lead the dynasty to power over the rest of Morocco in the decades after his death."
+      "description": "Sophie Wilmès is a Belgian politician who served as the prime minister of Belgium from 2019 to 2020. She later served as minister of foreign affairs from 2020 to 2022. A member of the Reformist Movement, she is the first woman to hold either position."
     }
   ],
   "USA": [
@@ -494,7 +315,7 @@
     {
       "name": "Richard Nixon",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Richard_Nixon",
-      "description": "Richard Milhous Nixon was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California. His presidency saw the reduction of U.S. involvement in the Vietnam War, d\u00e9tente with the Soviet Union and China, the Apollo 11 Moon landing, and the establishment of the Environmental Protection Agency and Occupational Safety and Health Administration. Nixon's second term ended early when he became the only U.S. president to resign from office, as a result of the Watergate scandal."
+      "description": "Richard Milhous Nixon was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he previously served as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961, and also as a representative and senator from California. His presidency saw the reduction of U.S. involvement in the Vietnam War, détente with the Soviet Union and China, the Apollo 11 Moon landing, and the establishment of the Environmental Protection Agency and Occupational Safety and Health Administration. Nixon's second term ended early when he became the only U.S. president to resign from office, as a result of the Watergate scandal."
     },
     {
       "name": "Lyndon Johnson",
@@ -509,7 +330,7 @@
     {
       "name": "Dwight Eisenhower",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
-      "description": "Dwight David \"Ike\" Eisenhower was the 34th president of the United States, serving from 1953 to 1961. During World War II, he was Supreme Commander of the Allied Expeditionary Force in Europe and achieved the five-star rank as General of the Army. Eisenhower planned and supervised two of the most consequential military campaigns of World War II: Operation Torch in the North Africa campaign in 1942\u20131943 and the invasion of Normandy in 1944."
+      "description": "Dwight David \"Ike\" Eisenhower was the 34th president of the United States, serving from 1953 to 1961. During World War II, he was Supreme Commander of the Allied Expeditionary Force in Europe and achieved the five-star rank as General of the Army. Eisenhower planned and supervised two of the most consequential military campaigns of World War II: Operation Torch in the North Africa campaign in 1942–1943 and the invasion of Normandy in 1944."
     },
     {
       "name": "Ronald Reagan",
@@ -569,12 +390,12 @@
     {
       "name": "James Polk",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/James_K._Polk",
-      "description": "James Knox Polk was the 11th president of the United States, serving from 1845 to 1849. A prot\u00e9g\u00e9 of Andrew Jackson and a member of the Democratic Party, he was an advocate of Jacksonian democracy and extending the territory of the United States. Polk led the U.S. into the Mexican\u2013American War, and after winning the war he annexed the Republic of Texas, the Oregon Territory, and the Mexican Cession."
+      "description": "James Knox Polk was the 11th president of the United States, serving from 1845 to 1849. A protégé of Andrew Jackson and a member of the Democratic Party, he was an advocate of Jacksonian democracy and extending the territory of the United States. Polk led the U.S. into the Mexican–American War, and after winning the war he annexed the Republic of Texas, the Oregon Territory, and the Mexican Cession."
     },
     {
       "name": "Zachary Taylor",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Zachary_Taylor",
-      "description": "Zachary Taylor was an American military officer and politician who was the 12th president of the United States, serving from 1849 until his death in 1850. Taylor was a career officer in the United States Army, rising to the rank of major general and becoming a national hero for his victories in the Mexican\u2013American War. As a result, he won election to the White House despite his vague political beliefs. His top priority as president was to preserve the Union. He died 16 months into his term from a stomach disease. Taylor had the third-shortest presidential term in U.S. history and was the third president whose death has been traced to poor sanitation in Washington DC."
+      "description": "Zachary Taylor was an American military officer and politician who was the 12th president of the United States, serving from 1849 until his death in 1850. Taylor was a career officer in the United States Army, rising to the rank of major general and becoming a national hero for his victories in the Mexican–American War. As a result, he won election to the White House despite his vague political beliefs. His top priority as president was to preserve the Union. He died 16 months into his term from a stomach disease. Taylor had the third-shortest presidential term in U.S. history and was the third president whose death has been traced to poor sanitation in Washington DC."
     },
     {
       "name": "Millard Fillmore",
@@ -584,7 +405,7 @@
     {
       "name": "Franklin Pierce",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Franklin_Pierce",
-      "description": "Franklin Pierce was the 14th president of the United States, serving from 1853 to 1857. A northern Democrat who believed that the abolitionist movement was a fundamental threat to the nation's unity, he alienated anti-slavery groups by signing the Kansas\u2013Nebraska Act and enforcing the Fugitive Slave Act. Conflict between North and South continued after Pierce's presidency, and, after Abraham Lincoln was elected president in 1860, the Southern states seceded, resulting in the American Civil War."
+      "description": "Franklin Pierce was the 14th president of the United States, serving from 1853 to 1857. A northern Democrat who believed that the abolitionist movement was a fundamental threat to the nation's unity, he alienated anti-slavery groups by signing the Kansas–Nebraska Act and enforcing the Fugitive Slave Act. Conflict between North and South continued after Pierce's presidency, and, after Abraham Lincoln was elected president in 1860, the Southern states seceded, resulting in the American Civil War."
     },
     {
       "name": "James Buchanan",
@@ -619,7 +440,7 @@
     {
       "name": "James Garfield",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/James_A._Garfield",
-      "description": "James Abram Garfield was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot two months earlier. A preacher, lawyer, and Civil War general, Garfield served nine terms in the United States House of Representatives and is the only sitting member of the House to be elected president. Before his candidacy for the presidency, he had been elected to the U.S. Senate by the Ohio General Assembly\u2014a position he declined when he became president-elect."
+      "description": "James Abram Garfield was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot two months earlier. A preacher, lawyer, and Civil War general, Garfield served nine terms in the United States House of Representatives and is the only sitting member of the House to be elected president. Before his candidacy for the presidency, he had been elected to the U.S. Senate by the Ohio General Assembly—a position he declined when he became president-elect."
     },
     {
       "name": "Ulysses Grant",
@@ -629,7 +450,7 @@
     {
       "name": "William McKinley",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/William_McKinley",
-      "description": "William McKinley was the 25th president of the United States, serving from 1897 until his assassination in 1901. A member of the Republican Party, he led a realignment that made Republicans largely dominant in the industrial states and nationwide for decades. McKinley successfully led the U.S. in the Spanish\u2013American War and oversaw a period of American expansionism, with the annexations of Hawaii, Puerto Rico, Guam, the Philippines, and American Samoa."
+      "description": "William McKinley was the 25th president of the United States, serving from 1897 until his assassination in 1901. A member of the Republican Party, he led a realignment that made Republicans largely dominant in the industrial states and nationwide for decades. McKinley successfully led the U.S. in the Spanish–American War and oversaw a period of American expansionism, with the annexations of Hawaii, Puerto Rico, Guam, the Philippines, and American Samoa."
     },
     {
       "name": "Stephen Cleveland",
@@ -659,7 +480,7 @@
     {
       "name": "Benjamin Harrison",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Benjamin_Harrison",
-      "description": "Benjamin Harrison was the 23rd president of the United States, serving from 1889 to 1893. He was a member of the Harrison family of Virginia\u2014a grandson of the ninth president, William Henry Harrison, and a great-grandson of Benjamin Harrison V, a Founding Father. A Union Army veteran and a Republican, he defeated incumbent Grover Cleveland to win the presidency in 1888."
+      "description": "Benjamin Harrison was the 23rd president of the United States, serving from 1889 to 1893. He was a member of the Harrison family of Virginia—a grandson of the ninth president, William Henry Harrison, and a great-grandson of Benjamin Harrison V, a Founding Father. A Union Army veteran and a Republican, he defeated incumbent Grover Cleveland to win the presidency in 1888."
     },
     {
       "name": "Rutherford Hayes",
@@ -687,6 +508,185 @@
       "name": "Boris Yeltsin",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Boris_Yeltsin",
       "description": "Boris Nikolayevich Yeltsin was a Soviet and Russian politician and statesman who served as President of Russia from 1991 to 1999. He was a member of the Communist Party of the Soviet Union from 1961 to 1990. He later stood as a political independent, during which time he was viewed as being ideologically aligned with liberalism."
+    }
+  ],
+  "France": [
+    {
+      "name": "François Hollande",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande",
+      "description": "François Gérard Georges Nicolas Hollande is a French politician who served as President of France from 2012 to 2017. Before his presidency, he was First Secretary of the Socialist Party from 1997 to 2008, Mayor of Tulle from 2001 to 2008, as well as President of the General Council of Corrèze from 2008 to 2012. He has also held the 1st constituency of Corrèze seat in the National Assembly three times, first from 1988 to 1993, then from 1997 to 2012, and from 2024 onwards."
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
+      "description": "Nicolas Paul Stéphane Sarközy de Nagy-Bocsa is a French politician who served as President of France from 2007 to 2012. In 2021, he was found guilty of having tried to bribe a judge in 2014 to obtain information and spending beyond legal campaign funding limits during his 2012 re-election campaign."
+    },
+    {
+      "name": "François Mitterrand",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand",
+      "description": "François Maurice Adrien Marie Mitterrand was a French politician and statesman who served as President of France from 1981 to 1995, the longest holder of that position in the history of France. As a former Socialist Party First Secretary, he was the first left-wing politician to assume the presidency under the Fifth Republic."
+    },
+    {
+      "name": "Charles de Gaulle",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+      "description": "Charles André Joseph Marie de Gaulle was a French general and statesman who led the Free French Forces against Nazi Germany in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. In 1958, amid the Algiers putsch, he came out of retirement when appointed Prime Minister by President René Coty. He rewrote the Constitution of France and founded the Fifth Republic after approval by referendum. He was elected President of France later that year, a position he held until his resignation in 1969."
+    },
+    {
+      "name": "Jacques Chirac",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jacques_Chirac",
+      "description": "Jacques René Chirac was a French politician who served as President of France from 1995 to 2007. He was previously Prime Minister of France from 1974 to 1976 and 1986 to 1988, as well as Mayor of Paris from 1977 to 1995."
+    },
+    {
+      "name": "Valéry Giscard d'Estaing",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%27Estaing",
+      "description": "Valéry René Marie Georges Giscard d'Estaing , also known as simply Giscard or VGE, was a French politician who served as President of France from 1974 to 1981."
+    },
+    {
+      "name": "Georges Pompidou",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Pompidou",
+      "description": "Georges Jean Raymond Pompidou was a French politician who served as President of France from 1969 until his death in 1974. He previously served as Prime Minister of France under President Charles de Gaulle from 1962 to 1968, a longevity record under the Fifth Republic."
+    },
+    {
+      "name": "Adolphe Thiers",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Adolphe_Thiers",
+      "description": "Marie Joseph Louis Adolphe Thiers was a French statesman and historian who served as President of France from 1871 to 1873. He was the second elected president and the first of the Third French Republic."
+    },
+    {
+      "name": "Napoléon Bonaparte",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Napol%C3%A9on_III",
+      "description": "Napoleon III was President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first president, second emperor, and last monarch of France."
+    },
+    {
+      "name": "Paul Doumer",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Doumer",
+      "description": "Joseph Athanase Doumer, commonly known as Paul Doumer , was a French politician who served as the President of France from June 1931 until his assassination in May 1932. He is described as \"the Father of French Indochina,\" and was seen as one of the most active and effective governors general of Indochina."
+    },
+    {
+      "name": "Alain Poher",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alain_Poher",
+      "description": "Alain Émile Louis Marie Poher was a French politician who served as President of the Senate from 1968 to 1992. In this capacity, he was twice briefly acting President of France, in 1969 and 1974 following the resignation of Charles de Gaulle and the death of Georges Pompidou respectively. Poher was affiliated with the Popular Republican Movement until 1966 and later with the Democratic Centre and Centre of Social Democrats , which he joined in 1976."
+    },
+    {
+      "name": "Albert Lebrun",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Albert_Lebrun",
+      "description": "Albert François Lebrun was a French politician who served as President of France from 1932 to 1940. He was the last president of the Third Republic. He was a member of the centre-right Democratic Republican Alliance ."
+    },
+    {
+      "name": "René Coty",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Ren%C3%A9_Coty",
+      "description": "Gustave Jules René Coty was President of France from 1954 to 1959. He was the second and last president of the Fourth French Republic."
+    },
+    {
+      "name": "Vincent Auriol",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Vincent_Auriol",
+      "description": "Vincent Jules Auriol was a French politician who served as President of France from 1947 to 1954."
+    },
+    {
+      "name": "Patrice de Mac Mahon",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Patrice_de_Mac_Mahon",
+      "description": "Marie Edme Patrice Maurice de MacMahon, marquis de MacMahon, duc de Magenta , was a French general and politician who served as President of France from 1873 to 1879. He was elevated to the dignity of Marshal of France by Napoleon III."
+    },
+    {
+      "name": "Émile Loubet",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/%C3%89mile_Loubet",
+      "description": "Émile François Loubet was the 45th Prime Minister of France from February to December 1892 and later President of France from 1899 to 1906."
+    },
+    {
+      "name": "Raymond Poincaré",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
+      "description": "Raymond Nicolas Landry Poincaré was a French statesman who served as President of France from 1913 to 1920, and three times as Prime Minister of France. He was a conservative leader, primarily committed to political and social stability."
+    },
+    {
+      "name": "Marie Carnot",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)",
+      "description": "Marie François Sadi Carnot was a French statesman who served as President of France from 1887 until his assassination in 1894."
+    },
+    {
+      "name": "Alexandre Millerand",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alexandre_Millerand",
+      "description": "Alexandre Millerand 10 February 1859 – 6 April 1943  was a French politician who served as President of France from 1920 to 1924, having previously served as Prime Minister of France earlier in 1920. His participation in Waldeck-Rousseau's cabinet at the start of the 20th century, alongside the Marquis de Galliffet, who had directed the repression of the 1871 Paris Commune, sparked a debate in the French Section of the Workers' International and in the Second International about the participation of socialists in bourgeois governments."
+    },
+    {
+      "name": "Gaston Doumergue",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Gaston_Doumergue",
+      "description": "Pierre Paul Henri Gaston Doumergue was a French politician who served as President of France from 1924 to 1931."
+    },
+    {
+      "name": "Félix Faure",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/F%C3%A9lix_Faure",
+      "description": "Félix François Faure was President of France from 1895 until his death in 1899. A native of Paris, he worked as a tanner in his younger years. Faure became a member of the Chamber of Deputies for Seine-Inférieure in 1881. He rose to prominence in national politics up until unexpectedly assuming the presidency, during which time France's relations with Russia improved."
+    },
+    {
+      "name": "Jules Grévy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jules_Gr%C3%A9vy",
+      "description": "François Judith Paul Grévy , known as Jules Grévy , was a French lawyer and politician who served as President of France from 1879 to 1887. He was a leader of the Moderate Republicans, and given that his predecessors were monarchists who tried without success to restore the French monarchy, Grévy is considered the first real republican president of France. During Grévy's presidency from 1879 to 1887, according to David Bell, there was a disunity among his cabinets. Only one survived more than a year. Grévy paid attention chiefly to defense, internal order, and foreign relations. Critics argue that Grévy's confusing approach to appointments set a bad precedent for handling crises. Grévy's son-in-law was implicated in a corruption scandal in 1887, and Grévy had to resign after exhausting the pool of willing politicians to form a fresh government."
+    },
+    {
+      "name": "Clément Fallières",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Armand_Falli%C3%A8res",
+      "description": "Clément Armand Fallières was a French statesman who was President of France from 1906 to 1913."
+    },
+    {
+      "name": "Paul Deschanel",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Deschanel",
+      "description": "Paul Eugène Louis Deschanel was a French politician who served as President of France from 18 February to 21 September 1920."
+    },
+    {
+      "name": "Georges Bidault",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Bidault",
+      "description": "Georges-Augustin Bidault was a French politician. During World War II, he was active in the French Resistance. After the war, he served as foreign minister and premier on several occasions. He apparently joined the Organisation armée secrète  however he always denied his involvement."
+    },
+    {
+      "name": "Jean Casimir-Perier",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier",
+      "description": "Jean Paul Pierre Casimir-Perier was a French politician who served as President of France from June 1894 to January 1895."
+    },
+    {
+      "name": "Charles Dupuy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_Dupuy",
+      "description": "Charles Alexandre Dupuy was a French statesman, three times prime minister."
+    },
+    {
+      "name": "Louis Cavaignac",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Cavaignac",
+      "description": "Louis-Eugène Cavaignac was a French general and politician who served as head of the executive power of France between June and December 1848, during the French Second Republic."
+    },
+    {
+      "name": "Louis None",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Louis_Jules_Trochu",
+      "description": "Louis-Jules Trochu was a French military leader and politician. He served as President of the Government of National Defense—France's de facto head of state—from 4 September 1870 until his resignation on 22 January 1871 ."
+    },
+    {
+      "name": "Frédéric None",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Fran%C3%A7ois-Marsal",
+      "description": "Frédéric François-Marsal was a French politician of the Third Republic, who served briefly as Prime Minister in 1924. Due to his premiership he also served for two days as the Acting President of the French Republic between the resignation of Alexandre Millerand and the election of Gaston Doumergue."
+    },
+    {
+      "name": "Emmanuel Macron",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+      "description": "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He was Minister of Economics, Industry and Digital Affairs under President François Hollande between 2014 and 2016. He has been a member of Renaissance since he founded it in 2016."
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "Mohammed VI of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco",
+      "description": "Mohammed VI is King of Morocco. A member of the Alawi dynasty, he acceded to the throne on 23 July 1999, upon the death of his father, King Hassan II."
+    },
+    {
+      "name": "Hassan II of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Hassan_II_of_Morocco",
+      "description": "Hassan II was King of Morocco from 1961 until his death in 1999. A member of the Alawi dynasty, he was the eldest son of King Mohammed V, and his second wife Princess Abla bint Tahar."
+    },
+    {
+      "name": "Mohammed V of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_V_of_Morocco",
+      "description": "Mohammed al-Khamis bin Yusef bin Hassan al-Alawi, better known simply as Mohammed V , was the last Sultan of Morocco from 1927 to 1953 and from 1955 to 1957, and first King of Morocco from 1957 to 1961. A member of the 'Alawi dynasty, he played an instrumental role in securing the independence of Morocco from the French and Spanish Protectorates."
+    },
+    {
+      "name": "Abu Abdallah al-Qaim",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Abu_Abdallah_al-Qaim",
+      "description": "Abu Abdallah Muhammad ibn Abd al-Rahman al-Qaim bi-Amr Allah, often shortened to Abu Abdallah al-Qa'im or Muhammad al-Qa'im, was the first political leader of the Saadi Dynasty of Morocco. He ruled the Sous and other parts of southern Morocco from 1510 to 1517, setting the stage for his sons to lead the dynasty to power over the rest of Morocco in the decades after his death."
     }
   ]
 }

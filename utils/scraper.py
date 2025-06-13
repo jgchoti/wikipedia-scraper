@@ -137,14 +137,14 @@ class WikipediaScraper:
         path = os.path.abspath("")
         access_file = os.path.join(path, "data", filename)
         os.makedirs(os.path.dirname(access_file), exist_ok=True)
-        with open(access_file, "w") as json_file:
-            json.dump(self.leaders_data, json_file, indent=2)
+        with open(access_file, "w", encoding="utf-8") as json_file:
+            json.dump(self.leaders_data, json_file, ensure_ascii=False, indent=2)
         print(f"✏️ Created {filename}")
 
     def read_json_file(self, filename):
         path = os.path.abspath("")
         access_file = os.path.join(path, "data", filename)
-        with open(access_file, "r") as json_file:
+        with open(access_file, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
 
         return data
