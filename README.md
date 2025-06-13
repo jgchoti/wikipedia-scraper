@@ -88,12 +88,12 @@ The program will then show output in the terminal
 - an optional CSV export
 - multiprocessing support to speed things up
 
-## ⚠️ Notes on Data Fixes
+## ⚠️ Data Corrections
 
-- Some leader names from the API were wrong or missing. I fixed them by checking their IDs and updating the names to match the Wikipedia links provided in the API.
+- Inconsistent or missing leader names from the API were resolved by using their unique IDs and aligning names with corresponding Wikipedia URLs.
 
-- The Wikipedia links were not always in English. I updated all links to use the English version of Wikipedia.
+- API-provided Wikipedia links were replaced to the English domain (`en.wikipedia.org`) to ensure consistent parsing and language output.
 
-- The output was cleaned before saving to make sure everything was consistent.
+- Text content was preprocessed before storage, including cleanup of formatting artifacts and removal of citation markers for better readability.
 
-- These small fixes helped improve the quality and accuracy of the final data.
+- These modifications were implemented to enhance consistency, and usability.
