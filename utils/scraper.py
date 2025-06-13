@@ -192,6 +192,7 @@ class WikipediaScraper:
                 data = list(csv.DictReader(access_file))
         return data
 
+<<<<<<< HEAD
     def display(self):
         prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
         if prompt == "y":
@@ -214,6 +215,16 @@ class WikipediaScraper:
         else:
             print("👋 Skip display. Exiting.")
             
+=======
+    def display_json_file(self, filename):
+        print(f"📖 Reading {filename}")
+        data = self.read_json_file(filename)
+        for section_key, entries in data.items():
+            for entry in  entries:
+                print(f"\n  {'Country':12}: {section_key}")
+                for key, value in entry.items():
+                    print(f"  {key.capitalize():12}: {value}")
+>>>>>>> 575f3f08b9e612c645668802386dd17f3c32bad1
 
     def print_broken_urls(self):
         if len(self.broken_url) > 0:
