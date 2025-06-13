@@ -1,6 +1,7 @@
 from tqdm import tqdm
 from utils.scraper import WikipediaScraper
 
+
 def main() -> None:
     print(f"\n🔍 Getting data...")
     scraper = WikipediaScraper()
