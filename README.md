@@ -85,8 +85,9 @@ The program will then show output in the terminal
 
 ## ✨ Extra Features (available in the `nice-to-have` branch)
 
-- an optional CSV export
-- multiprocessing support to speed things up
+- An optional CSV export
+- Multiprocessing support to speed things up
+- Progress bar using `tqdm`library
 
 ## ⚠️ Data Corrections
 
