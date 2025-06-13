@@ -71,7 +71,7 @@ class WikipediaScraper:
         leaders_list = leaders_response.json()
         #  replace country to  more readable
         country_name = COUNTRY_NAMES[country]
-        self.leaders_data[country_name] = []
+        leaders = []
         for leader in leaders_list:
             if country == "ma":
                 name = NAME_REPLACE[leader["id"]]
@@ -86,13 +86,14 @@ class WikipediaScraper:
                 or len(first_paragraph) <= 50
             ):
                 self.broken_url.append(wikipedia_eng_url)
-            self.leaders_data[country_name].append(
+            leaders.append(
                 {
                     "name": name,
                     "wikipedia URL": wikipedia_eng_url,
                     "description": first_paragraph,
                 }
             )
+        return country_name , leaders
 
     def get_all_leaders(self):
         self.countries = self.get_countries()
