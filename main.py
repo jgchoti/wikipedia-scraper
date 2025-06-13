@@ -1,6 +1,7 @@
 import time
 from utils.scraper import WikipediaScraper
 
+
 def main() -> None:
     print("🔍 Getting data...")
     start = time.time()
@@ -16,5 +17,7 @@ def main() -> None:
     end = time.time()
     scraper.print_broken_urls()
     print(f"\n⌛️ Total runtime is {end - start} seconds")
+
+
 if __name__ == "__main__":
     main()
