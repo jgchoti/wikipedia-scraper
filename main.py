@@ -6,6 +6,7 @@ from utils.scraper import WikipediaScraper
 def get_data(country):
     local_scraper = WikipediaScraper()
     leaders = local_scraper.get_leaders(country)
+    local_scraper.close()
     return {
         "country": leaders[0],
         "leaders": leaders[1],
