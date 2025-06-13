@@ -87,7 +87,7 @@ The program will then show output in the terminal
 
 - An optional CSV export
 - Multiprocessing support to speed things up
-- Progress bar using `tqdm`library
+- Progress bar using `tqdm` library
 
 ## ⚠️ Data Corrections
 
