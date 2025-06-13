@@ -147,13 +147,13 @@ class WikipediaScraper:
         prompt = input("💾 Save results in a file? (y to confirm): ").strip().lower()
         if prompt == "y":
             file_extension = input("💾  1: .json  2: .csv  or other to cancel: ").strip().lower()
-            self.filename = self.input_filename()
             if file_extension == "1" or file_extension in ["json", ".json"]:
-                 self.filename += file_extensions[0]
-                 print(f"💾 Export in {file_extensions[0]} file")
-                 self.to_json_file()
-                 
+                self.filename = self.input_filename()
+                self.filename += file_extensions[0]
+                print(f"💾 Export in {file_extensions[0]} file")
+                self.to_json_file()
             elif file_extension == "2" or file_extension in ["csv", ".csv"]:
+                self.filename = self.input_filename()
                 self.filename += file_extensions[1]
                 print(f"💾 Export in {file_extensions[1]} file")
                 self.to_csv_file()
@@ -242,6 +242,5 @@ class WikipediaScraper:
                     row.update(leader)
                     writer.writerow(row)
            
-    
-    # multiprocessing support to speed things up
+
     
