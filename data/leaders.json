@@ -1,4 +1,161 @@
 {
+  "France": [
+    {
+      "name": "François Hollande",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande",
+      "description": "François Gérard Georges Nicolas Hollande is a French politician who served as President of France from 2012 to 2017. Before his presidency, he was First Secretary of the Socialist Party from 1997 to 2008, Mayor of Tulle from 2001 to 2008, as well as President of the General Council of Corrèze from 2008 to 2012. He has also held the 1st constituency of Corrèze seat in the National Assembly three times, first from 1988 to 1993, then from 1997 to 2012, and from 2024 onwards."
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
+      "description": "Nicolas Paul Stéphane Sarközy de Nagy-Bocsa is a French politician who served as President of France from 2007 to 2012. In 2021, he was found guilty of having tried to bribe a judge in 2014 to obtain information and spending beyond legal campaign funding limits during his 2012 re-election campaign."
+    },
+    {
+      "name": "François Mitterrand",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand",
+      "description": "François Maurice Adrien Marie Mitterrand was a French politician and statesman who served as President of France from 1981 to 1995, the longest holder of that position in the history of France. As a former Socialist Party First Secretary, he was the first left-wing politician to assume the presidency under the Fifth Republic."
+    },
+    {
+      "name": "Charles de Gaulle",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+      "description": "Charles André Joseph Marie de Gaulle was a French general and statesman who led the Free French Forces against Nazi Germany in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. In 1958, amid the Algiers putsch, he came out of retirement when appointed Prime Minister by President René Coty. He rewrote the Constitution of France and founded the Fifth Republic after approval by referendum. He was elected President of France later that year, a position he held until his resignation in 1969."
+    },
+    {
+      "name": "Jacques Chirac",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jacques_Chirac",
+      "description": "Jacques René Chirac was a French politician who served as President of France from 1995 to 2007. He was previously Prime Minister of France from 1974 to 1976 and 1986 to 1988, as well as Mayor of Paris from 1977 to 1995."
+    },
+    {
+      "name": "Valéry Giscard d'Estaing",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%27Estaing",
+      "description": "Valéry René Marie Georges Giscard d'Estaing , also known as simply Giscard or VGE, was a French politician who served as President of France from 1974 to 1981."
+    },
+    {
+      "name": "Georges Pompidou",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Pompidou",
+      "description": "Georges Jean Raymond Pompidou was a French politician who served as President of France from 1969 until his death in 1974. He previously served as Prime Minister of France under President Charles de Gaulle from 1962 to 1968, a longevity record under the Fifth Republic."
+    },
+    {
+      "name": "Adolphe Thiers",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Adolphe_Thiers",
+      "description": "Marie Joseph Louis Adolphe Thiers was a French statesman and historian who served as President of France from 1871 to 1873. He was the second elected president and the first of the Third French Republic."
+    },
+    {
+      "name": "Napoléon Bonaparte",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Napol%C3%A9on_III",
+      "description": "Napoleon III was President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first president, second emperor, and last monarch of France."
+    },
+    {
+      "name": "Paul Doumer",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Doumer",
+      "description": "Joseph Athanase Doumer, commonly known as Paul Doumer , was a French politician who served as the President of France from June 1931 until his assassination in May 1932. He is described as \"the Father of French Indochina,\" and was seen as one of the most active and effective governors general of Indochina."
+    },
+    {
+      "name": "Alain Poher",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alain_Poher",
+      "description": "Alain Émile Louis Marie Poher was a French politician who served as President of the Senate from 1968 to 1992. In this capacity, he was twice briefly acting President of France, in 1969 and 1974 following the resignation of Charles de Gaulle and the death of Georges Pompidou respectively. Poher was affiliated with the Popular Republican Movement until 1966 and later with the Democratic Centre and Centre of Social Democrats , which he joined in 1976."
+    },
+    {
+      "name": "Albert Lebrun",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Albert_Lebrun",
+      "description": "Albert François Lebrun was a French politician who served as President of France from 1932 to 1940. He was the last president of the Third Republic. He was a member of the centre-right Democratic Republican Alliance ."
+    },
+    {
+      "name": "René Coty",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Ren%C3%A9_Coty",
+      "description": "Gustave Jules René Coty was President of France from 1954 to 1959. He was the second and last president of the Fourth French Republic."
+    },
+    {
+      "name": "Vincent Auriol",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Vincent_Auriol",
+      "description": "Vincent Jules Auriol was a French politician who served as President of France from 1947 to 1954."
+    },
+    {
+      "name": "Patrice de Mac Mahon",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Patrice_de_Mac_Mahon",
+      "description": "Marie Edme Patrice Maurice de MacMahon, marquis de MacMahon, duc de Magenta , was a French general and politician who served as President of France from 1873 to 1879. He was elevated to the dignity of Marshal of France by Napoleon III."
+    },
+    {
+      "name": "Émile Loubet",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/%C3%89mile_Loubet",
+      "description": "Émile François Loubet was the 45th Prime Minister of France from February to December 1892 and later President of France from 1899 to 1906."
+    },
+    {
+      "name": "Raymond Poincaré",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
+      "description": "Raymond Nicolas Landry Poincaré was a French statesman who served as President of France from 1913 to 1920, and three times as Prime Minister of France. He was a conservative leader, primarily committed to political and social stability."
+    },
+    {
+      "name": "Marie Carnot",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)",
+      "description": "Marie François Sadi Carnot was a French statesman who served as President of France from 1887 until his assassination in 1894."
+    },
+    {
+      "name": "Alexandre Millerand",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alexandre_Millerand",
+      "description": "Alexandre Millerand 10 February 1859 – 6 April 1943  was a French politician who served as President of France from 1920 to 1924, having previously served as Prime Minister of France earlier in 1920. His participation in Waldeck-Rousseau's cabinet at the start of the 20th century, alongside the Marquis de Galliffet, who had directed the repression of the 1871 Paris Commune, sparked a debate in the French Section of the Workers' International and in the Second International about the participation of socialists in bourgeois governments."
+    },
+    {
+      "name": "Gaston Doumergue",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Gaston_Doumergue",
+      "description": "Pierre Paul Henri Gaston Doumergue was a French politician who served as President of France from 1924 to 1931."
+    },
+    {
+      "name": "Félix Faure",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/F%C3%A9lix_Faure",
+      "description": "Félix François Faure was President of France from 1895 until his death in 1899. A native of Paris, he worked as a tanner in his younger years. Faure became a member of the Chamber of Deputies for Seine-Inférieure in 1881. He rose to prominence in national politics up until unexpectedly assuming the presidency, during which time France's relations with Russia improved."
+    },
+    {
+      "name": "Jules Grévy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jules_Gr%C3%A9vy",
+      "description": "François Judith Paul Grévy , known as Jules Grévy , was a French lawyer and politician who served as President of France from 1879 to 1887. He was a leader of the Moderate Republicans, and given that his predecessors were monarchists who tried without success to restore the French monarchy, Grévy is considered the first real republican president of France. During Grévy's presidency from 1879 to 1887, according to David Bell, there was a disunity among his cabinets. Only one survived more than a year. Grévy paid attention chiefly to defense, internal order, and foreign relations. Critics argue that Grévy's confusing approach to appointments set a bad precedent for handling crises. Grévy's son-in-law was implicated in a corruption scandal in 1887, and Grévy had to resign after exhausting the pool of willing politicians to form a fresh government."
+    },
+    {
+      "name": "Clément Fallières",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Armand_Falli%C3%A8res",
+      "description": "Clément Armand Fallières was a French statesman who was President of France from 1906 to 1913."
+    },
+    {
+      "name": "Paul Deschanel",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Deschanel",
+      "description": "Paul Eugène Louis Deschanel was a French politician who served as President of France from 18 February to 21 September 1920."
+    },
+    {
+      "name": "Georges Bidault",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Bidault",
+      "description": "Georges-Augustin Bidault was a French politician. During World War II, he was active in the French Resistance. After the war, he served as foreign minister and premier on several occasions. He apparently joined the Organisation armée secrète  however he always denied his involvement."
+    },
+    {
+      "name": "Jean Casimir-Perier",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier",
+      "description": "Jean Paul Pierre Casimir-Perier was a French politician who served as President of France from June 1894 to January 1895."
+    },
+    {
+      "name": "Charles Dupuy",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_Dupuy",
+      "description": "Charles Alexandre Dupuy was a French statesman, three times prime minister."
+    },
+    {
+      "name": "Louis Cavaignac",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Cavaignac",
+      "description": "Louis-Eugène Cavaignac was a French general and politician who served as head of the executive power of France between June and December 1848, during the French Second Republic."
+    },
+    {
+      "name": "Louis None",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Louis_Jules_Trochu",
+      "description": "Louis-Jules Trochu was a French military leader and politician. He served as President of the Government of National Defense—France's de facto head of state—from 4 September 1870 until his resignation on 22 January 1871 ."
+    },
+    {
+      "name": "Frédéric None",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Fran%C3%A7ois-Marsal",
+      "description": "Frédéric François-Marsal was a French politician of the Third Republic, who served briefly as Prime Minister in 1924. Due to his premiership he also served for two days as the Acting President of the French Republic between the resignation of Alexandre Millerand and the election of Gaston Doumergue."
+    },
+    {
+      "name": "Emmanuel Macron",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+      "description": "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He was Minister of Economics, Industry and Digital Affairs under President François Hollande between 2014 and 2016. He has been a member of Renaissance since he founded it in 2016."
+    }
+  ],
   "Belgium": [
     {
       "name": "Guy Verhofstadt",
@@ -266,6 +423,28 @@
       "description": "Sophie Wilmès is a Belgian politician who served as the prime minister of Belgium from 2019 to 2020. She later served as minister of foreign affairs from 2020 to 2022. A member of the Reformist Movement, she is the first woman to hold either position."
     }
   ],
+  "Morocco": [
+    {
+      "name": "Mohammed VI of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco",
+      "description": "Mohammed VI is King of Morocco. A member of the Alawi dynasty, he acceded to the throne on 23 July 1999, upon the death of his father, King Hassan II."
+    },
+    {
+      "name": "Hassan II of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Hassan_II_of_Morocco",
+      "description": "Hassan II was King of Morocco from 1961 until his death in 1999. A member of the Alawi dynasty, he was the eldest son of King Mohammed V, and his second wife Princess Abla bint Tahar."
+    },
+    {
+      "name": "Mohammed V of Morocco",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_V_of_Morocco",
+      "description": "Mohammed al-Khamis bin Yusef bin Hassan al-Alawi, better known simply as Mohammed V , was the last Sultan of Morocco from 1927 to 1953 and from 1955 to 1957, and first King of Morocco from 1957 to 1961. A member of the 'Alawi dynasty, he played an instrumental role in securing the independence of Morocco from the French and Spanish Protectorates."
+    },
+    {
+      "name": "Abu Abdallah al-Qaim",
+      "Wikipedia URL": "https://en.wikipedia.org/wiki/Abu_Abdallah_al-Qaim",
+      "description": "Abu Abdallah Muhammad ibn Abd al-Rahman al-Qaim bi-Amr Allah, often shortened to Abu Abdallah al-Qa'im or Muhammad al-Qa'im, was the first political leader of the Saadi Dynasty of Morocco. He ruled the Sous and other parts of southern Morocco from 1510 to 1517, setting the stage for his sons to lead the dynasty to power over the rest of Morocco in the decades after his death."
+    }
+  ],
   "USA": [
     {
       "name": "George Washington",
@@ -508,185 +687,6 @@
       "name": "Boris Yeltsin",
       "Wikipedia URL": "https://en.wikipedia.org/wiki/Boris_Yeltsin",
       "description": "Boris Nikolayevich Yeltsin was a Soviet and Russian politician and statesman who served as President of Russia from 1991 to 1999. He was a member of the Communist Party of the Soviet Union from 1961 to 1990. He later stood as a political independent, during which time he was viewed as being ideologically aligned with liberalism."
-    }
-  ],
-  "France": [
-    {
-      "name": "François Hollande",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande",
-      "description": "François Gérard Georges Nicolas Hollande is a French politician who served as President of France from 2012 to 2017. Before his presidency, he was First Secretary of the Socialist Party from 1997 to 2008, Mayor of Tulle from 2001 to 2008, as well as President of the General Council of Corrèze from 2008 to 2012. He has also held the 1st constituency of Corrèze seat in the National Assembly three times, first from 1988 to 1993, then from 1997 to 2012, and from 2024 onwards."
-    },
-    {
-      "name": "Nicolas Sarkozy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
-      "description": "Nicolas Paul Stéphane Sarközy de Nagy-Bocsa is a French politician who served as President of France from 2007 to 2012. In 2021, he was found guilty of having tried to bribe a judge in 2014 to obtain information and spending beyond legal campaign funding limits during his 2012 re-election campaign."
-    },
-    {
-      "name": "François Mitterrand",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand",
-      "description": "François Maurice Adrien Marie Mitterrand was a French politician and statesman who served as President of France from 1981 to 1995, the longest holder of that position in the history of France. As a former Socialist Party First Secretary, he was the first left-wing politician to assume the presidency under the Fifth Republic."
-    },
-    {
-      "name": "Charles de Gaulle",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
-      "description": "Charles André Joseph Marie de Gaulle was a French general and statesman who led the Free French Forces against Nazi Germany in World War II and chaired the Provisional Government of the French Republic from 1944 to 1946 to restore democracy in France. In 1958, amid the Algiers putsch, he came out of retirement when appointed Prime Minister by President René Coty. He rewrote the Constitution of France and founded the Fifth Republic after approval by referendum. He was elected President of France later that year, a position he held until his resignation in 1969."
-    },
-    {
-      "name": "Jacques Chirac",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jacques_Chirac",
-      "description": "Jacques René Chirac was a French politician who served as President of France from 1995 to 2007. He was previously Prime Minister of France from 1974 to 1976 and 1986 to 1988, as well as Mayor of Paris from 1977 to 1995."
-    },
-    {
-      "name": "Valéry Giscard d'Estaing",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%27Estaing",
-      "description": "Valéry René Marie Georges Giscard d'Estaing , also known as simply Giscard or VGE, was a French politician who served as President of France from 1974 to 1981."
-    },
-    {
-      "name": "Georges Pompidou",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Pompidou",
-      "description": "Georges Jean Raymond Pompidou was a French politician who served as President of France from 1969 until his death in 1974. He previously served as Prime Minister of France under President Charles de Gaulle from 1962 to 1968, a longevity record under the Fifth Republic."
-    },
-    {
-      "name": "Adolphe Thiers",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Adolphe_Thiers",
-      "description": "Marie Joseph Louis Adolphe Thiers was a French statesman and historian who served as President of France from 1871 to 1873. He was the second elected president and the first of the Third French Republic."
-    },
-    {
-      "name": "Napoléon Bonaparte",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Napol%C3%A9on_III",
-      "description": "Napoleon III was President of France from 1848 to 1852 and then Emperor of the French from 1852 until his deposition in 1870. He was the first president, second emperor, and last monarch of France."
-    },
-    {
-      "name": "Paul Doumer",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Doumer",
-      "description": "Joseph Athanase Doumer, commonly known as Paul Doumer , was a French politician who served as the President of France from June 1931 until his assassination in May 1932. He is described as \"the Father of French Indochina,\" and was seen as one of the most active and effective governors general of Indochina."
-    },
-    {
-      "name": "Alain Poher",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alain_Poher",
-      "description": "Alain Émile Louis Marie Poher was a French politician who served as President of the Senate from 1968 to 1992. In this capacity, he was twice briefly acting President of France, in 1969 and 1974 following the resignation of Charles de Gaulle and the death of Georges Pompidou respectively. Poher was affiliated with the Popular Republican Movement until 1966 and later with the Democratic Centre and Centre of Social Democrats , which he joined in 1976."
-    },
-    {
-      "name": "Albert Lebrun",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Albert_Lebrun",
-      "description": "Albert François Lebrun was a French politician who served as President of France from 1932 to 1940. He was the last president of the Third Republic. He was a member of the centre-right Democratic Republican Alliance ."
-    },
-    {
-      "name": "René Coty",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Ren%C3%A9_Coty",
-      "description": "Gustave Jules René Coty was President of France from 1954 to 1959. He was the second and last president of the Fourth French Republic."
-    },
-    {
-      "name": "Vincent Auriol",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Vincent_Auriol",
-      "description": "Vincent Jules Auriol was a French politician who served as President of France from 1947 to 1954."
-    },
-    {
-      "name": "Patrice de Mac Mahon",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Patrice_de_Mac_Mahon",
-      "description": "Marie Edme Patrice Maurice de MacMahon, marquis de MacMahon, duc de Magenta , was a French general and politician who served as President of France from 1873 to 1879. He was elevated to the dignity of Marshal of France by Napoleon III."
-    },
-    {
-      "name": "Émile Loubet",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/%C3%89mile_Loubet",
-      "description": "Émile François Loubet was the 45th Prime Minister of France from February to December 1892 and later President of France from 1899 to 1906."
-    },
-    {
-      "name": "Raymond Poincaré",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
-      "description": "Raymond Nicolas Landry Poincaré was a French statesman who served as President of France from 1913 to 1920, and three times as Prime Minister of France. He was a conservative leader, primarily committed to political and social stability."
-    },
-    {
-      "name": "Marie Carnot",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Sadi_Carnot_(statesman)",
-      "description": "Marie François Sadi Carnot was a French statesman who served as President of France from 1887 until his assassination in 1894."
-    },
-    {
-      "name": "Alexandre Millerand",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Alexandre_Millerand",
-      "description": "Alexandre Millerand 10 February 1859 – 6 April 1943  was a French politician who served as President of France from 1920 to 1924, having previously served as Prime Minister of France earlier in 1920. His participation in Waldeck-Rousseau's cabinet at the start of the 20th century, alongside the Marquis de Galliffet, who had directed the repression of the 1871 Paris Commune, sparked a debate in the French Section of the Workers' International and in the Second International about the participation of socialists in bourgeois governments."
-    },
-    {
-      "name": "Gaston Doumergue",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Gaston_Doumergue",
-      "description": "Pierre Paul Henri Gaston Doumergue was a French politician who served as President of France from 1924 to 1931."
-    },
-    {
-      "name": "Félix Faure",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/F%C3%A9lix_Faure",
-      "description": "Félix François Faure was President of France from 1895 until his death in 1899. A native of Paris, he worked as a tanner in his younger years. Faure became a member of the Chamber of Deputies for Seine-Inférieure in 1881. He rose to prominence in national politics up until unexpectedly assuming the presidency, during which time France's relations with Russia improved."
-    },
-    {
-      "name": "Jules Grévy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jules_Gr%C3%A9vy",
-      "description": "François Judith Paul Grévy , known as Jules Grévy , was a French lawyer and politician who served as President of France from 1879 to 1887. He was a leader of the Moderate Republicans, and given that his predecessors were monarchists who tried without success to restore the French monarchy, Grévy is considered the first real republican president of France. During Grévy's presidency from 1879 to 1887, according to David Bell, there was a disunity among his cabinets. Only one survived more than a year. Grévy paid attention chiefly to defense, internal order, and foreign relations. Critics argue that Grévy's confusing approach to appointments set a bad precedent for handling crises. Grévy's son-in-law was implicated in a corruption scandal in 1887, and Grévy had to resign after exhausting the pool of willing politicians to form a fresh government."
-    },
-    {
-      "name": "Clément Fallières",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Armand_Falli%C3%A8res",
-      "description": "Clément Armand Fallières was a French statesman who was President of France from 1906 to 1913."
-    },
-    {
-      "name": "Paul Deschanel",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Paul_Deschanel",
-      "description": "Paul Eugène Louis Deschanel was a French politician who served as President of France from 18 February to 21 September 1920."
-    },
-    {
-      "name": "Georges Bidault",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Georges_Bidault",
-      "description": "Georges-Augustin Bidault was a French politician. During World War II, he was active in the French Resistance. After the war, he served as foreign minister and premier on several occasions. He apparently joined the Organisation armée secrète  however he always denied his involvement."
-    },
-    {
-      "name": "Jean Casimir-Perier",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Jean_Casimir-Perier",
-      "description": "Jean Paul Pierre Casimir-Perier was a French politician who served as President of France from June 1894 to January 1895."
-    },
-    {
-      "name": "Charles Dupuy",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Charles_Dupuy",
-      "description": "Charles Alexandre Dupuy was a French statesman, three times prime minister."
-    },
-    {
-      "name": "Louis Cavaignac",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Cavaignac",
-      "description": "Louis-Eugène Cavaignac was a French general and politician who served as head of the executive power of France between June and December 1848, during the French Second Republic."
-    },
-    {
-      "name": "Louis None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Louis_Jules_Trochu",
-      "description": "Louis-Jules Trochu was a French military leader and politician. He served as President of the Government of National Defense—France's de facto head of state—from 4 September 1870 until his resignation on 22 January 1871 ."
-    },
-    {
-      "name": "Frédéric None",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Fran%C3%A7ois-Marsal",
-      "description": "Frédéric François-Marsal was a French politician of the Third Republic, who served briefly as Prime Minister in 1924. Due to his premiership he also served for two days as the Acting President of the French Republic between the resignation of Alexandre Millerand and the election of Gaston Doumergue."
-    },
-    {
-      "name": "Emmanuel Macron",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
-      "description": "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He was Minister of Economics, Industry and Digital Affairs under President François Hollande between 2014 and 2016. He has been a member of Renaissance since he founded it in 2016."
-    }
-  ],
-  "Morocco": [
-    {
-      "name": "Mohammed VI of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco",
-      "description": "Mohammed VI is King of Morocco. A member of the Alawi dynasty, he acceded to the throne on 23 July 1999, upon the death of his father, King Hassan II."
-    },
-    {
-      "name": "Hassan II of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Hassan_II_of_Morocco",
-      "description": "Hassan II was King of Morocco from 1961 until his death in 1999. A member of the Alawi dynasty, he was the eldest son of King Mohammed V, and his second wife Princess Abla bint Tahar."
-    },
-    {
-      "name": "Mohammed V of Morocco",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Mohammed_V_of_Morocco",
-      "description": "Mohammed al-Khamis bin Yusef bin Hassan al-Alawi, better known simply as Mohammed V , was the last Sultan of Morocco from 1927 to 1953 and from 1955 to 1957, and first King of Morocco from 1957 to 1961. A member of the 'Alawi dynasty, he played an instrumental role in securing the independence of Morocco from the French and Spanish Protectorates."
-    },
-    {
-      "name": "Abu Abdallah al-Qaim",
-      "Wikipedia URL": "https://en.wikipedia.org/wiki/Abu_Abdallah_al-Qaim",
-      "description": "Abu Abdallah Muhammad ibn Abd al-Rahman al-Qaim bi-Amr Allah, often shortened to Abu Abdallah al-Qa'im or Muhammad al-Qa'im, was the first political leader of the Saadi Dynasty of Morocco. He ruled the Sous and other parts of southern Morocco from 1510 to 1517, setting the stage for his sons to lead the dynasty to power over the rest of Morocco in the decades after his death."
     }
   ]
 }

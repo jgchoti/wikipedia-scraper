@@ -2,6 +2,15 @@
 
 A Python project that fetches information about world leaders via API, scrapes their biographies from Wikipedia, and exports everything into a JSON file. Built as part of my learning at BeCode to deepen experience with APIs, web scraping, and data handling using Python
 
+---
+
+## 📝 Note on Code Development
+
+- While the assignment specifies a working `wikipedia_scraper.ipynb` notebook, most of the development and **final working script** should be run on `main.py` as the code was progressively improved overtime.
+- Check out the `nice-to-have` branch for additional features like CSV export and multiprocessing.
+
+---
+
 ## 🚀 Current Feature
 
 - Grabs a list of countries and their political leaders via [this API](https://country-leaders.onrender.com/docs).
@@ -9,6 +18,14 @@ A Python project that fetches information about world leaders via API, scrapes t
 - Cleans the text to remove footnotes and clutter
 - Stores everything in a JSON file
 - Keeps track of any broken or missing Wikipedia links
+
+### ✨ Extra Features (available in the `nice-to-have` branch)
+
+- An optional CSV export
+- Multiprocessing support to speed things up
+- Progress bar using `tqdm` library
+
+---
 
 ## 🛠 Tech
 
@@ -83,11 +100,12 @@ The program will then show output in the terminal
 
 ```
 
-## ✨ Extra Features (available in the `nice-to-have` branch)
+The program ends by displaying the total runtime to fetch the data.
+(In the `nice-to-have` branch, this feature is replaced by a progress bar.)
 
-- An optional CSV export
-- Multithreading support to speed things up
-- Progress bar using `tqdm` library
+```
+⌛️ Total runtime is 14.35 seconds
+```
 
 ## ⚠️ Data Corrections
 
@@ -96,5 +114,3 @@ The program will then show output in the terminal
 - API-provided Wikipedia links were replaced to the English domain (`en.wikipedia.org`) to ensure consistent in language output.
 
 - Text content was preprocessed before storage, including cleanup of formatting artifacts and removal of citation markers for better readability.
-
-- These modifications were implemented to enhance consistency, and usability.
