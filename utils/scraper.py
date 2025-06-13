@@ -153,9 +153,8 @@ class WikipediaScraper:
         print(f"📖 Reading {filename}")
         data = self.read_json_file(filename)
         for section_key, entries in data.items():
-            print(f"\n📍 {section_key}")
-            for idx, entry in enumerate(entries, 1):
-                print(f"\n  Entry {idx}")
+            for entry in  entries:
+                print(f"\n  {'Country':12}: {section_key}")
                 for key, value in entry.items():
                     print(f"  {key.capitalize():12}: {value}")
 
