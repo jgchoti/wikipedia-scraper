@@ -58,7 +58,42 @@ This program will save data into `leaders.json` inside the `data/` folder
 }
 ```
 
+---
+
+### 📊 Sample Output in terminal
+
+The program will also ask user if they want to read data and display in their terminal:
+
+```bash
+
+🖨️ Display results in terminal? (y to confirm): y
+
+```
+
+The program will then show output in the terminal
+
+```
+
+📖 Reading leaders.json
+
+  Country     : France
+  Name        : François Hollande
+  Wikipedia url: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Hollande
+  Description : François Gérard Georges Nicolas Hollande is a French politician who served as President of France from 2012 to 2017. Before his presidency, he was First Secretary of the Socialist Party from 1997 to 2008, Mayor of Tulle from 2001 to 2008, as well as President of the General Council of Corrèze from 2008 to 2012. He has also held the 1st constituency of Corrèze seat in the National Assembly three times, first from 1988 to 1993, then from 1997 to 2012, and from 2024 onwards.
+
+```
+
 ## ✨ Extra Features (available in the `nice-to-have` branch)
 
 - an optional CSV export
 - multiprocessing support to speed things up
+
+## ⚠️ Notes on Data Fixes
+
+- Some leader names from the API were wrong or missing. I fixed them by checking their IDs and updating the names to match the Wikipedia links provided in the API.
+
+- The Wikipedia links were not always in English. I updated all links to use the English version of Wikipedia.
+
+- The output was cleaned before saving to make sure everything was consistent.
+
+- These small fixes helped improve the quality and accuracy of the final data.
