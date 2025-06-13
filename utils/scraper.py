@@ -165,9 +165,9 @@ class WikipediaScraper:
         path = os.path.abspath("")
         access_file = os.path.join(path, "data", self.filename)
         os.makedirs(os.path.dirname(access_file), exist_ok=True)
-        with open(access_file, "w") as json_file:
-            json.dump(self.leaders_data, json_file, indent=2)
-        print(f"✏️ Created {self.filename}")
+        with open(access_file, "w", encoding="utf-8") as json_file:
+            json.dump(self.leaders_data, json_file, ensure_ascii=False, indent=2)
+        print(f"✏️ Created {filename}")
 
     def read_file(self):
         path = os.path.abspath("")
