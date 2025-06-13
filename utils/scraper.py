@@ -150,12 +150,12 @@ class WikipediaScraper:
             self.filename = self.input_filename()
             if file_extension == "1" or file_extension in ["json", ".json"]:
                  self.filename += file_extensions[0]
-                 print(f"export in {file_extensions[0]} file")
+                 print(f"💾 Export in {file_extensions[0]} file")
                  self.to_json_file()
                  
             elif file_extension == "2" or file_extension in ["csv", ".csv"]:
                 self.filename += file_extensions[1]
-                print(f"export in {file_extensions[1]} file")
+                print(f"💾 Export in {file_extensions[1]} file")
                 self.to_csv_file()
         else:
             print("👋 Skip saving data.")
@@ -167,7 +167,7 @@ class WikipediaScraper:
         os.makedirs(os.path.dirname(access_file), exist_ok=True)
         with open(access_file, "w", encoding="utf-8") as json_file:
             json.dump(self.leaders_data, json_file, ensure_ascii=False, indent=2)
-        print(f"✏️ Created {filename}")
+        print(f"✏️ Created {self.filename}")
 
     def read_file(self):
         path = os.path.abspath("")
@@ -192,7 +192,6 @@ class WikipediaScraper:
                 data = list(csv.DictReader(access_file))
         return data
 
-<<<<<<< HEAD
     def display(self):
         prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
         if prompt == "y":
@@ -215,16 +214,6 @@ class WikipediaScraper:
         else:
             print("👋 Skip display. Exiting.")
             
-=======
-    def display_json_file(self, filename):
-        print(f"📖 Reading {filename}")
-        data = self.read_json_file(filename)
-        for section_key, entries in data.items():
-            for entry in  entries:
-                print(f"\n  {'Country':12}: {section_key}")
-                for key, value in entry.items():
-                    print(f"  {key.capitalize():12}: {value}")
->>>>>>> 575f3f08b9e612c645668802386dd17f3c32bad1
 
     def print_broken_urls(self):
         if len(self.broken_url) > 0:
