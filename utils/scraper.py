@@ -182,15 +182,19 @@ class WikipediaScraper:
                     access_file = os.path.join(data_dir, file_name)
                 else:
                     print("No .json or .csv file found in 'data/' directory.")
-                    return
-    
+                    return None
+        
         if self.filename.endswith(".json"):
             with open(access_file, "r") as access_file:
                 data = json.load(access_file)
         elif self.filename.endswith(".csv"):
             with open(access_file, mode="r") as access_file:
                 data = list(csv.DictReader(access_file))
+        else:
+            print("No .json or .csv file found in 'data/' directory.")
+            return None
         return data
+            
 
     def display(self):
         prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
