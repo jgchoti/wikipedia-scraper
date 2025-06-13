@@ -1,8 +1,3 @@
-#### 2a. A `scraper.py` module (Second MVP - OOP)
-
-# Now that you've made sure your code works! Let's practice restructuring your solution as a class.
-
-# Code up a `WikipediaScraper` scraper object that allows you to structurally retrieve data from the API.
 import requests
 import re
 import json
@@ -21,7 +16,8 @@ class WikipediaScraper:
         country_endpoint: str = "/countries",
         leaders_endpoint: str = "/leaders",
         cookies_endpoint: str = "/cookie",
-        cookie: object = "",
+        leaders_data: dict = None,
+        cookie: object = None,
         countries: list = None,
         broken_url: list = None,
     ):
@@ -30,11 +26,14 @@ class WikipediaScraper:
         self.leaders_endpoint = leaders_endpoint
         self.cookies_endpoint = cookies_endpoint
         self.leaders_data = {}
-        self.cookie = cookie
+        self.cookie = ""
         self.countries = []
         self.broken_url = []
         self.filename = "leaders"
         self.session = requests.Session()
+        
+    def close(self):
+        self.session.close()
 
     # - `refresh_cookie() -> object` returns a new cookie if the cookie has expired
     def refresh_cookie(self) -> object:

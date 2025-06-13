@@ -85,14 +85,15 @@ The program will then show output in the terminal
 
 ## ✨ Extra Features (available in the `nice-to-have` branch)
 
-- an optional CSV export
-- multiprocessing support to speed things up
+- An optional CSV export
+- Multithreading support to speed things up
+- Progress bar using `tqdm` library
 
 ## ⚠️ Data Corrections
 
-- Inconsistent or missing leader names from the API were resolved by using their unique IDs and aligning names with corresponding Wikipedia URLs.
+- Inconsistent or missing leader names from the API were resolved by using their unique IDs and aligning with names from corresponding Wikipedia URLs.
 
-- API-provided Wikipedia links were replaced to the English domain (`en.wikipedia.org`) to ensure consistent parsing and language output.
+- API-provided Wikipedia links were replaced to the English domain (`en.wikipedia.org`) to ensure consistent in language output.
 
 - Text content was preprocessed before storage, including cleanup of formatting artifacts and removal of citation markers for better readability.
 
