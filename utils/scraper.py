@@ -81,7 +81,6 @@ class WikipediaScraper:
     
     def clean_text(self, p):
         cleaned = re.sub(r'\[.*?\]', "", p)
-        cleaned = re.sub(r'\[[^\]]*\d+[^\]]*\]', "", cleaned)
         cleaned = re.sub(r'\(.*?\)', "", cleaned)
         cleaned = re.sub(r'[ⓘ;)\\]+|\s+', " ", cleaned).strip() 
         return cleaned
