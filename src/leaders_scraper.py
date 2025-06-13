@@ -1,12 +1,10 @@
-import requests
-import re
 import json
 import os
+import re
 import time
-import multiprocessing
-from requests import Session
-from bs4 import BeautifulSoup
 
+import requests
+from bs4 import BeautifulSoup
 
 NAME_REPLACE = {
     "Q57553": "Mohammed VI of Morocco",

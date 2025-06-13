@@ -1,11 +1,12 @@
-import requests
-import re
+import csv
 import json
 import os
-import csv
-from requests import Session
+import re
+
+import requests
 from bs4 import BeautifulSoup
-from utils.config import NAME_REPLACE, RENAME_MAP, COUNTRY_NAMES
+
+from utils.config import COUNTRY_NAMES, NAME_REPLACE, RENAME_MAP
 
 
 class WikipediaScraper:
@@ -31,7 +32,7 @@ class WikipediaScraper:
         self.broken_url = []
         self.filename = "leaders"
         self.session = requests.Session()
-        
+
     def close(self):
         self.session.close()
 
@@ -92,7 +93,7 @@ class WikipediaScraper:
                     "description": first_paragraph,
                 }
             )
-        return country_name , leaders
+        return country_name, leaders
 
     def get_all_leaders(self):
         self.countries = self.get_countries()
@@ -132,21 +133,23 @@ class WikipediaScraper:
                     if clean_paragraph and clean_paragraph.strip().lower() != "defunct":
                         return clean_paragraph
         return "⚠️ no description found"
-    
+
     def input_filename(self):
         user_input = input("💾 Name your data file (default: leaders): ").strip()
-        check_filename = re.search(r'[\\/:*?"<>|]',user_input)
+        check_filename = re.search(r'[\\/:*?"<>|]', user_input)
         if not user_input or check_filename:
             self.filename = "leaders"
-        else: 
+        else:
             self.filename = user_input
         return self.filename
 
     def save_file(self):
-        file_extensions = [".json",  ".csv"]
+        file_extensions = [".json", ".csv"]
         prompt = input("💾 Save results in a file? (y to confirm): ").strip().lower()
         if prompt == "y":
-            file_extension = input("💾  1: .json  2: .csv  or other to cancel: ").strip().lower()
+            file_extension = (
+                input("💾  1: .json  2: .csv  or other to cancel: ").strip().lower()
+            )
             if file_extension == "1" or file_extension in ["json", ".json"]:
                 self.filename = self.input_filename()
                 self.filename += file_extensions[0]
@@ -172,18 +175,18 @@ class WikipediaScraper:
     def read_file(self):
         path = os.path.abspath("")
         data_dir = os.path.join(path, "data")
-        
+
         if self.filename.endswith(".json") or self.filename.endswith(".csv"):
             access_file = os.path.join(data_dir, self.filename)
         else:
             for file_name in os.listdir(data_dir):
                 if file_name.endswith(".json") or file_name.endswith(".csv"):
-                    self.filename = file_name  
+                    self.filename = file_name
                     access_file = os.path.join(data_dir, file_name)
                 else:
                     print("No .json or .csv file found in 'data/' directory.")
                     return None
-        
+
         if self.filename.endswith(".json"):
             with open(access_file, "r") as access_file:
                 data = json.load(access_file)
@@ -194,10 +197,11 @@ class WikipediaScraper:
             print("No .json or .csv file found in 'data/' directory.")
             return None
         return data
-            
 
     def display(self):
-        prompt = input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
+        prompt = (
+            input("🖨️ Display results in terminal? (y to confirm): ").strip().lower()
+        )
         if prompt == "y":
             print(f"📖 Reading {self.filename}")
             data = self.read_file()
@@ -206,45 +210,39 @@ class WikipediaScraper:
                 return
             elif isinstance(data, dict):
                 for section_key, entries in data.items():
-                    for entry in  entries:
+                    for entry in entries:
                         print(f"\n  {'Country':12}: {section_key}")
                         for key, value in entry.items():
                             print(f"  {key.capitalize():12}: {value}")
             else:
-                for line in data :
-                    print(f"\n")
+                for line in data:
+                    print("\n")
                     for key, value in line.items():
                         print(f"  {key.capitalize():12}: {value}")
         else:
             print("👋 Skip display. Exiting.")
-            
 
     def print_broken_urls(self):
         if len(self.broken_url) > 0:
             print("\n⚠️ Cannot access the following Wikipedia URLs:")
             for url in self.broken_url:
                 print(url)
-                
-                
-    # an optional CSV export
-    
-    def to_csv_file(self):
 
+    # an optional CSV export
+
+    def to_csv_file(self):
         path = os.path.abspath("")
         access_file = os.path.join(path, "data", self.filename)
         os.makedirs(os.path.dirname(access_file), exist_ok=True)
-        
+
         first_key = list(self.leaders_data.keys())[0]
-        fieldnames = ['country'] + list(self.leaders_data[first_key][0].keys())
-        
-        with open(access_file, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ["country"] + list(self.leaders_data[first_key][0].keys())
+
+        with open(access_file, "w", newline="", encoding="utf-8") as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for country, leaders_list in self.leaders_data.items():
                 for leader in leaders_list:
-                    row = {'country': country}
+                    row = {"country": country}
                     row.update(leader)
                     writer.writerow(row)
-           
-
-    
